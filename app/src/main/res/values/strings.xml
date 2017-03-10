@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MarketlogicChallenge</string>
+
+    <!-- Strings related to login -->
+    <string name="error_failed_load_message">Failed loading weather info</string>
+
+    <string name="city_name" formatted="false">City Name: %s</string>
+    <string name="temperature" formatted="false">Temperature: %s</string>
+    <string name="pressure" formatted="false">Pressure: %s</string>
+    <string name="today_date" formatted="false">Today Date: %s</string>
+
+
+    <string name="weather_icon_url" formatted="false">http://openweathermap.org/img/w/%s.png</string>
+
+
+</resources>
