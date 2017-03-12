@@ -1,7 +1,6 @@
 package com.marketlogicchallenge.mvp.views;
 
 import com.marketlogicchallenge.model.Weather;
-import com.marketlogicchallenge.model.WeatherResponse;
 
 import java.util.List;
 

@@ -22,7 +22,6 @@ public class WeatherInfoPresenter implements WeatherInfoContract.UserActionsList
         this.weatherInfoFetcher = weatherInfoFetcher;
     }
 
-
     @Override
     public void loadWeatherInfo(String cityName) {
 
@@ -75,17 +74,6 @@ public class WeatherInfoPresenter implements WeatherInfoContract.UserActionsList
 
                     }
                 }
-
-
-                if (data.getName() != null) {
-                    view.showCityName(data.getName());
-                }
-
-
-                if (data.getName() != null) {
-                    view.showCityName(data.getName());
-                }
-
 
             }
 

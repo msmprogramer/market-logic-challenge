@@ -12,10 +12,10 @@ import android.view.ViewGroup;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import com.marketlogicchallenge.Injection;
 import com.marketlogicchallenge.R;
 import com.marketlogicchallenge.adapter.WeatherInfoAdapter;
 import com.marketlogicchallenge.model.Weather;
-import com.marketlogicchallenge.mvp.fetchers.WeatherInfoFetcher;
 import com.marketlogicchallenge.mvp.presenters.WeatherInfoPresenter;
 import com.marketlogicchallenge.mvp.views.WeatherInfoContract;
 import com.marketlogicchallenge.ui.activities.WeatherActivityList;
@@ -58,7 +58,7 @@ public class WeatherInfoFragment extends Fragment implements WeatherInfoContract
 
         presenter = new WeatherInfoPresenter(
                 this,
-                WeatherInfoFetcher.newInstance()
+                Injection.getWeatherFetcherInstance()
         );
 
 
